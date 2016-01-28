@@ -1,0 +1,19 @@
+function bubbleSort (input) {
+  var result = input;
+  var count = 0;
+
+  while(count < (input.length * input.length)){
+    for(var i = 0; i<input.length-1; i++) {
+      if(input[i] >= input[i+1]) {
+        var one = input[i];
+        var two = input[i+1];
+
+        result[i] = two;
+        result[i+1] = one;
+      } else {
+        count++;
+      }
+  }
+  }
+  return result;
+}
