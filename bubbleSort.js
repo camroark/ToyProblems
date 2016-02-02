@@ -10,7 +10,6 @@ Implement a function that takes an array and sorts it using this technique.
 DO NOT use JavaScript’s built-in sorting function (Array.prototype.sort).
 */
 
-
 function bubbleSort (input) {
   var result = input;
   var count = 0;

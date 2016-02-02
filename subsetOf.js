@@ -8,6 +8,5 @@ Array.prototype.isSubsetOf = function(parentArray) {
       return false;
     }
   }
-
  return true;
 };
