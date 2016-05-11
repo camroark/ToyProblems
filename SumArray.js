@@ -9,7 +9,7 @@ Examples:
 //sumArray([4,-1,5]));           //8
 //sumArray([10,-11,11]));        //11
 //sumArray([1,2,3,-6,4,5,6]));   //15
-
+*/ 
 let sumArray = (array) => {
   let max = array[0];
   let arrayLength = array.length;
